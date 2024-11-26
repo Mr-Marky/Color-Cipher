@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  h1{
+    margin-top: 80px;
+  }
+  
+  .container {
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Details Card */
+  .details-card {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+  
+  .details-card h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .details-card p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  
+  
+  /* Buttons and Inputs */
+  textarea {
+    width: 90%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* .output-section{
+   width: 70%; 
+  } */
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #outputText {
+    padding: 10px;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    background-color: #333;
+    color: #f4f4f4;
+  }
+  
+  body.dark .container {
+    background-color: #444;
+  }
+  
+  body.dark textarea, body.dark #outputText {
+    background-color: #555;
+    color: #f4f4f4;
+  }
+  
+  /* Dark Mode Button */
+  .dark-mode-toggle {
+    margin-top: 20px;
+  }
+  
+  #darkModeBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+  }
+  
+  #darkModeBtn span {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  
+  #darkModeBtn:hover {
+    background-color: #0056b3;
+  }
+  

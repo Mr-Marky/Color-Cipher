@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Cipher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Color Cipher</h1>
+
+
+
+    <!-- Encryption Section -->
+    <div class="cipher-section">
+      <textarea id="inputText" placeholder="Enter text to encrypt or decrypt..."></textarea>
+      <button id="encryptBtn">Encrypt</button>
+      <button id="decryptBtn">Decrypt</button>
+      <button id="voiceCommandBtn">Voice Input 🎙️</button>
+          <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <button id="darkModeBtn">
+          <span id="icon">🌙</span> Toggle Dark Mode
+        </button>
+      </div>
+    </div>
+
+    <!-- Output Section -->
+    <div class="output-section">
+      <h2>Output:</h2>
+      <p id="outputText"></p>
+    </div>
+
+
+
+        <!-- Details Card -->
+        <div class="details-card">
+            <h2>About Color Cipher</h2>
+            <p>
+              Color Cipher is a unique encryption tool that uses colors to encode and decode messages.
+              Each letter of the alphabet is mapped to a specific color. Use this tool to encrypt text 
+              into a colorful cipher or decrypt color-coded messages back to text.
+            </p>
+          </div>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
